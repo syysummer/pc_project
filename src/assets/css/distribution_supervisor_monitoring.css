@@ -1,0 +1,29 @@
+
+@charset "utf-8";
+@media (min-width: 992px) and (max-width: 1400px) {
+    .distribution_table {
+        width: 45% !important;
+    }
+
+    .distribution_position {
+        width: 55% !important;
+    }
+
+    /* .distribution_supervisor_monitoring {
+        height: 55vh !important;
+    } */
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .distribution_table {
+        width: 50% !important;
+    }
+
+    .distribution_position {
+        width: 50% !important;
+    }
+
+    /* .distribution_supervisor_monitoring {
+        height: 50vh !important;
+    } */
+}

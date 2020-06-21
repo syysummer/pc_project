@@ -1,0 +1,30 @@
+
+
+@charset "utf-8";
+.ditail_info div:first-child {
+    width: 25% !important;
+}
+
+.ditail_info div:last-child {
+    width: 75% !important;
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+    .ditail_info div:first-child {
+        width: 30% !important;
+    }
+    
+    .ditail_info div:last-child {
+        width: 70% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .ditail_info div:first-child {
+        width: 35% !important;
+    }
+    
+    .ditail_info div:last-child {
+        width: 65% !important;
+    }
+}

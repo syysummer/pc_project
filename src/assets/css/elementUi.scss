@@ -1,0 +1,382 @@
+.page {
+  .el-pager li {
+    border: 1px solid #EDEDED;
+    margin-left: 2px;
+  }
+
+  // .el-pagination {
+  //     display: inline-block;
+  //     float: right;
+  // }
+}
+
+.el-table th>.cell {
+  color: #435C77;
+  font-size: 14px;
+}
+
+.el-table--fit {
+  margin: 10px auto;
+  margin-bottom: 0;
+  width: 96%;
+}
+
+.distribution_management {
+  .el-button--danger.is-plain {
+    padding: 5px 7px;
+
+    span {
+      font-size: 12px;
+    }
+  }
+
+  .el-button--danger.is-plain:focus,
+  .el-button--danger.is-plain:hover,
+  .el-button--danger.is-plain {
+    color: #ff3633;
+    border: 1px solid #ff3633;
+    background: #fbfbfb;
+    border-radius: 4px;
+  }
+}
+
+.todoBtn {
+  .el-button {
+    span {
+      font-size: 13px;
+    }
+  }
+}
+
+.demo-form-inlines {
+  .el-form--inline .el-form-item__content {
+    width: 1rem;
+  }
+}
+
+.el-button--danger:focus,
+.el-button--danger:hover {
+  background: #FF644D;
+  border-color: #FF644D;
+  color: #fff;
+}
+
+.distribution_supervisor_monitoring_body,
+.distribution_management .el-button--text {
+  color: #FF3633;
+}
+
+.edit_the_details_of_the_distributor_box {
+  .el-input--small .el-input__inner {
+    width: 235px;
+  }
+}
+
+.el-upload--picture-card:hover,
+.el-upload:focus {
+  border-color: #c0ccda;
+  color: #409EFF;
+}
+
+.left,
+.right {
+  .el-upload--picture-card {
+    width: 260px;
+    height: 150px;
+    border: 1px dashed #d9d9d9;
+
+    .avatar {
+      width: 260px;
+      height: 150px;
+      display: block;
+    }
+  }
+
+  .el-upload-list--picture-card .el-upload-list__item {
+    width: 260px;
+    height: 150px;
+  }
+}
+
+.el-upload-list__item.is-success .el-upload-list__item-status-label {
+  display: none;
+}
+
+.personImg {
+  .el-upload-dragger {
+    width: 150px; // height: 150px;
+    border: 1px dashed #d9d9d9;
+
+    .el-icon-circle-plus-outline {
+      font-size: 28px;
+      color: #8c939d;
+      width: 150px;
+      height: 180px;
+      line-height: 180px;
+      text-align: center; // font-size: 40px;
+      // margin-top: 55px;
+    }
+
+    .avatar {
+      width: 150px;
+      height: 150px;
+      display: block;
+    }
+  }
+}
+
+.no_admission_management {
+  .el-form {
+    .el-form-item__label {
+      padding: 0 5px 0 0;
+    }
+
+    .noPass_time {
+      .el-form-item__content {
+        max-width: 300px;
+      }
+    }
+  }
+
+  .el-form--inline .el-form-item__content {
+    max-width: 270px;
+  }
+
+  .el-select {
+    width: 110px;
+  }
+
+  .noPass_time {
+    .el-input--small .el-input__inner {
+      cursor: pointer;
+    }
+  }
+}
+
+.form_search .el-select--small .el-input__inner {
+  width: 190px;
+}
+
+.table_food .el-table td,
+.el-table th.is-leaf {
+  border-bottom: none;
+}
+
+.table_food .el-table th>.cell {
+  color: #666;
+  font-weight: 600;
+}
+
+.table_food .el-table .cell {
+  font-size: 13px;
+}
+
+.mode_content .el-input {
+  width: 60px;
+}
+
+.mode_content .el-select .el-input {
+  width: 100px;
+}
+
+.waiting_single .el-dialog__body {
+  // text-align: center;
+  padding-bottom: 60px;
+  padding: 0px 20px;
+}
+
+.reschedule_waiting .el-dialog__body {
+  // text-align: center;
+  padding-bottom: 60px;
+  padding: 0px 20px;
+}
+
+.reschedule_waiting .el-form-item {
+  margin-bottom: 0;
+}
+
+.waiting_single .el-form-item {
+  margin-bottom: 0;
+}
+
+.el-button--danger {
+  background-color: #FF644D;
+  border-color: #FF644D;
+}
+
+
+.search_box .box .el-select>.el-input {
+  width: 105px;
+}
+
+.search_box .box .box_select>.el-input {
+  width: 150px;
+}
+
+.waiting_single .form_search .el-select--small .el-input__inner {
+  width: 150px;
+}
+
+.delivery_order_detail .el-date-editor.el-input,
+.delivery_order_detail .el-date-editor.el-input__inner {
+  width: 160px;
+}
+
+.delivery_order_detail .el-input--suffix .el-input__inner {
+  padding-right: 0;
+  font-size: 12px;
+}
+
+.delivery_order_detail .el-input--small {
+  width: 150px;
+}
+
+.delivery_order_detail .el-select .el-input--small {
+  width: 130px;
+}
+
+.cash_order_statistics .el-button--danger.is-plain {
+  padding: 7px 10px;
+}
+
+.delivery_order_detail .el-button--danger.is-plain {
+  padding: 7px 10px;
+}
+
+.cash_order_statistics .el-button--danger.is-plain span {
+  font-size: 12px;
+}
+
+.delivery_order_detail .el-button--danger.is-plain span {
+  font-size: 12px;
+}
+
+.address-hidden .cell {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  // autoprefixer: off
+  -webkit-box-orient: vertical;
+  // autoprefixer: on
+  -webkit-line-clamp: 2;
+}
+
+.dialog_table1 .el-table__body-wrapper {
+  overflow-y: auto;
+  max-height: 40vh;
+}
+
+.dialog-form1 {
+  margin-bottom: 0;
+}
+
+.dialog_small_box .dialog-footer {
+  padding-bottom: 20px;
+}
+
+.compensation_container,
+.salary_list_container,
+.balance_container .el-button--text {
+  color: #409EFF !important;
+}
+
+.salary_list_container .el-table__expanded-cell {
+  padding-top: 0;
+  padding-bottom: 0;
+  border-bottom: 1px solid #ebeef5;
+}
+
+.salary_list_container .has-gutter tr th {
+  background: #F6F9FF;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.balance_part_container .has-gutter tr th {
+  background: #F6F9FF;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.balance_full_container .has-gutter tr th {
+  background: #F6F9FF;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.balance_container .has-gutter tr th {
+  background: #F6F9FF;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.salary_list_container .time_table,
+.el-table td,
+.time_table,
+.el-table th.is-leaf {
+  border: none;
+}
+
+.salary_list_container .time_table::before {
+  height: 0;
+}
+
+.el-button span {
+  font-size: 14px !important;
+}
+
+.time_table .el-table__header-wrapper {
+  display: none;
+}
+
+.salary_set_container .el-date-editor.el-input,
+.salary_set_container .el-date-editor.el-input__inner {
+  width: 140px;
+}
+
+.salary_set_container .el-input.is-disabled .el-input__inner {
+  background: #fff;
+}
+
+.compensation_container .limit_cancel .el-input--small {
+  width: 150px;
+}
+
+.compensation_dialog .el-dialog__headerbtn {
+  display: none;
+}
+
+.compensation_dialog .el-dialog--center .el-dialog__body {
+  text-align: center;
+}
+
+.compensation_dialog .el-dialog--center .el-dialog__body span {
+  font-size: 16px;
+}
+
+.noValue {
+  input {
+    border-color: red;
+  }
+}
+
+.hasValue input {
+  border-color: #d9d9d9;
+}
+
+.compensation_container {
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .el-table .cell {
+    font-size: 14px;
+  }
+
+  .el-button--danger.is-plain span {
+    font-size: 14px;
+  }
+}

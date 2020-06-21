@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+.public_box {
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+/* 配送员监控——下拉菜单 */
+
+.public_box .el-dropdown {
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+  color: #999999;
+  height: 100%;
+  padding: 3px 8px;
+  display: flex;
+  align-items: center;
+}
+
+.el-dropdown-link {
+  font-size: 12px;
+}
+
+/* 配送员监控——表格 */
+
+.distribution_supervisor_monitoring .el-table {
+  text-align: center;
+  overflow-y: auto;
+}
+
+.distribution_supervisor_monitoring .el-table__body-wrapper {
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+.distribution_supervisor_monitoring .small_pagination {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.distribution_supervisor_monitoring .small_pagination.is-background .btn-next,
+.small_pagination.is-background .btn-prev,
+.small_pagination.is-background .el-pager li {
+  min-width: 22px;
+  height: 23px;
+  line-height: 23px;
+  font-size: 12px;
+  margin: 0px 2px;
+}
+
+.distribution_supervisor_monitoring .el-table th {
+  /* background: url(../images/table_bg.png); */
+  text-align: center;
+}
+
+.distribution_supervisor_monitoring .el-table th,
+.el-table tr {
+  background: none;
+}
+
+.distribution_supervisor_monitoring .el-table__header {
+  background: -webkit-linear-gradient(left, #FC755B, #FD5F69);
+  background: -o-linear-gradient(right, #FC755B, #FD5F69);
+  background: -moz-linear-gradient(right, #FC755B, #FD5F69);
+  background: linear-gradient(to right, #FC755B, #FD5F69);
+  /* background: url(../images/table_bg.png);
+  background-size: 100% 100%; */
+}
+
+.distribution_supervisor_monitoring .el-table th>.cell {
+  color: #fff;
+}
+
+.el-table--fit {
+  margin: 0;
+}
+
+/*fade*/
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.28s;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+/*fade*/
+.breadcrumb-enter-active,
+.breadcrumb-leave-active {
+  transition: all .5s;
+}
+
+.breadcrumb-enter,
+.breadcrumb-leave-active {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.breadcrumb-move {
+  transition: all .5s;
+}
+
+.breadcrumb-leave-active {
+  position: absolute;
+}

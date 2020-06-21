@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* 配送排期页面导出弹窗 */
+.main_contain .export_file .el-dialog{
+	min-width: 600px;
+	top: 20vh;
+}
+.main_contain .export_file .el-dialog__header {
+	text-align: left;
+	padding: 10px 15px;
+}
+
+.main_contain .export_file .el-dialog__headerbtn {
+	top: 15px;
+	margin-bottom: 10px;
+}
+
+.main_contain .export_file .el-dialog {
+	width: 25%;
+}
+
+.main_contain .export_file .el-button.el-button--primary {
+	color: #fff;
+	background-color: #1890FF;
+	border-color: #1890FF;
+}
+
+.main_contain .export_file .el-date-editor.el-input__inner {
+	width: auto;
+}
+
+.el-date-editor .export_file .el-range-input {
+	width: auto;
+}
+
+.main_contain .export_file .el-dialog__body {
+	padding: 20px 20px 0;
+}
+
+.main_contain .export_file .el-form-item {
+	margin-bottom: 10px;
+}
+.new_salary_wrap .el-input__inner{
+	width: 290px;
+}
+
+.syy_date_select .el-date-editor.el-range-editor.el-input__inner.el-date-editor--daterange{
+	width: 290px;
+}
